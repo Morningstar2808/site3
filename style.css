@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+.container {
+    max-width: 770px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.info {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgb(30, 28, 28);
+}
+
+.bio {
+    font-style: italic;
+    font-weight: bold;
+    color: #19216a;
+    margin: 0;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .link h3 {
+        font-size: 0.7rem;
+    }
+}
+
+.mission {
+    background: #6695ea;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.mission li {
+    list-style-type: decimal;
+}
+
+.time {
+    background: aquamarine;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.time li {
+    list-style-type: disc;
+}
+
+.course {
+    background: #07c9c9;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.course h3 {
+    padding-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table {
+    text-align: center;
+}
+
+.table td {
+    padding-bottom: 15px;
+}
+
+.table th, td {
+    border: 1px solid black;
+}
+
+.link {
+    /*list-style-type: none;*/
+    display: flex;
+    padding: 20px;
+    background: #cbbfce;
+    border-radius: 20px;
+}
+
+.link h3 {
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.link img {
+    width: 27px;
+    height: 25px;
+}
+
+.links {
+    margin-left: 10px;
+    margin-right: 8px;
+    padding-top: 20px;
+}
+
